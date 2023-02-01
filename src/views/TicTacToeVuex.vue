@@ -1,11 +1,11 @@
 <template>
   <div>{{ turn }}님의 턴입니다.</div>
   <table-component/>
-  <div v-if="winner">{{ winner }}님의 승리</div>
+  <div v-if="winner">{{ turnMessage }}</div>
 </template>
 
 <script>
-  import { mapState } from 'vuex';
+  import { mapGetters, mapState } from 'vuex';
   import TableComponent from '../components/ttt_vuex/TableComponent.vue';
 
   export default {
@@ -17,7 +17,11 @@
       ...mapState({
         winner : state => state.winner,
         turn : state => state.turn,
-      })
+      }),
+      // turnMessage() {
+      //   return this.$store.getters.turnMessage;
+      // }
+      ...mapGetters(['turnMessage'])
     },
     methods: {
     },

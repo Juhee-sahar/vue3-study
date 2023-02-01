@@ -20,6 +20,8 @@ import HelloWorld from './components/HelloWorld.vue';
         <RouterLink to="/tictactoe">tictactoe</RouterLink>
         <RouterLink to="/tictactoeMitt">tictactoe_mitt</RouterLink>
         <RouterLink to="/tictactoeVuex">tictactoe_vuex</RouterLink>
+        <RouterLink to="/tictactoeVuexNoComponents">tictactoe_vuex_nocomponents</RouterLink>
+        <RouterLink to="/tictactoeSlot">tictactoe_slot</RouterLink>
       </nav>
     </div>
   </header>

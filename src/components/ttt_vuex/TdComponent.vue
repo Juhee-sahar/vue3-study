@@ -4,7 +4,7 @@
 
 <script>
   import { mapState } from 'vuex';
-import { CLICK_CELL, SET_WINNER, RESET_GAME, CHANGE_TURN, NO_WINNER } from '../../store';
+  import { CLICK_CELL, SET_WINNER, RESET_GAME, CHANGE_TURN, NO_WINNER } from '../../store';
 
   export default {
     props : {

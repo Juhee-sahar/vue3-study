@@ -21,9 +21,9 @@ export default createStore({
   }, // vue의 data와 비슷
   getters : {
     turnMessage(state) {
-      return state.turn + '님이 승리하셨습니다.';
+      return state.winner + '님이 승리하셨습니다.';
     }
-  }, // vue의 computed와 비슷
+  }, // vue의 computed와 비슷 캐싱!
   mutations : {
     [SET_WINNER](state, winner) {
       state.winner = winner;
