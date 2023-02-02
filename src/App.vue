@@ -22,6 +22,7 @@ import HelloWorld from './components/HelloWorld.vue';
         <RouterLink to="/tictactoeVuex">tictactoe_vuex</RouterLink>
         <RouterLink to="/tictactoeVuexNoComponents">tictactoe_vuex_nocomponents</RouterLink>
         <RouterLink to="/tictactoeSlot">tictactoe_slot</RouterLink>
+        <RouterLink to="/mineseeper">mineseeper</RouterLink>
       </nav>
     </div>
   </header>

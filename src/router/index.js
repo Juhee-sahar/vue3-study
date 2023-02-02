@@ -62,6 +62,11 @@ const router = createRouter({
       name: 'tictactoeSlot',
       component: () => import('../views/TicTacToeSlot.vue')
     },
+    {
+      path: '/mineseeper',
+      name: 'mineseeper',
+      component: () => import('../views/MineSweeper.vue')
+    },
   ]
 })
 

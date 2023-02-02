@@ -13,7 +13,7 @@ import TrComponent from './TrComponent.vue';
       TrComponent,
     },
     computed: {
-      ...mapState({
+      ...mapState('tictactoe', {
         tableData : state => state.tableData
       })
     },

@@ -16,7 +16,7 @@ import TdComponent from  './TdComponent.vue'
       TdComponent,
     },
     computed: {
-      ...mapState({
+      ...mapState('tictactoe', {
         rowData (state){ return state.tableData[this.rowIndex]}
       })
     },

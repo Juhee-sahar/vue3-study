@@ -14,14 +14,14 @@
     },
     computed: {
       // ...mapState(['winner', 'turn'])
-      ...mapState({
+      ...mapState('tictactoe', {
         winner : state => state.winner,
         turn : state => state.turn,
       }),
       // turnMessage() {
       //   return this.$store.getters.turnMessage;
       // }
-      ...mapGetters(['turnMessage'])
+      ...mapGetters('tictactoe', ['turnMessage'])
     },
     methods: {
     },
