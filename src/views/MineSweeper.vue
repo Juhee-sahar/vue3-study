@@ -10,7 +10,7 @@
 <script>
 import { mapState } from 'vuex';
 import TableComponent from '../components/mineSweeper/TableComponent.vue';
-import MineForm from '../components/MindForm.vue';
+import MineForm from '../components/mineSweeper/MindForm.vue';
 import { INCREMENT_TIMER } from '../store/mindSweeper';
 
 let interval;

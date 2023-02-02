@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import {START_GAME} from '../store/mindSweeper';
+import {START_GAME} from '../../store/mindSweeper';
 
   export default {
     data() {
