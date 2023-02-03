@@ -67,6 +67,10 @@ const router = createRouter({
       name: 'mineseeper',
       component: () => import('../views/MineSweeper.vue')
     },
+    {
+      path : '/tictactoegamematcher/:name',
+      component : () => import('../views/TicTacToeGameMatcher.vue')
+    }
   ]
 })
 

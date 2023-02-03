@@ -17,12 +17,13 @@ import HelloWorld from './components/HelloWorld.vue';
         <RouterLink to="/respons">respons check</RouterLink>
         <RouterLink to="/rsp">rock scissors paper</RouterLink>
         <RouterLink to="/lotto">lotto</RouterLink>
-        <RouterLink to="/tictactoe">tictactoe</RouterLink>
-        <RouterLink to="/tictactoeMitt">tictactoe_mitt</RouterLink>
-        <RouterLink to="/tictactoeVuex">tictactoe_vuex</RouterLink>
-        <RouterLink to="/tictactoeVuexNoComponents">tictactoe_vuex_nocomponents</RouterLink>
-        <RouterLink to="/tictactoeSlot">tictactoe_slot</RouterLink>
         <RouterLink to="/mineseeper">mineseeper</RouterLink>
+        <RouterLink to="/tictactoegamematcher/tictactoe">tictactoe</RouterLink>
+        <RouterLink to="/tictactoegamematcher/tictactoeMitt">tictactoe_mitt</RouterLink>
+        <RouterLink to="/tictactoegamematcher/tictactoeVuex">tictactoe_vuex</RouterLink>
+        <RouterLink to="/tictactoegamematcher/tictactoeVuexNoComponents">tictactoe_vuex_nocomponents</RouterLink>
+        <RouterLink to="/tictactoegamematcher/tictactoeSlot">tictactoe_slot</RouterLink>
+        <RouterLink to="/tictactoegamematcher/index">tictactoe</RouterLink>
       </nav>
     </div>
   </header>
